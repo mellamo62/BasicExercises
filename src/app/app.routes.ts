@@ -20,5 +20,5 @@ export const routes: Routes = [
   { path: "Ex07component", component: Ex07Component, title: "Ex07"},
   { path: "Ex08component", component: Ex08Component, title: "Ex08"},
   { path: "Ex09component", component: Ex09Component, title: "Ex09"},
-  { path: "Ex10component", component: Ex10Component, title: "Ex10"},
+  { path: "Ex10component", component: Ex10Component, title: "Ex10"}
 ];

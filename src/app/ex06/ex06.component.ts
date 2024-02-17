@@ -13,15 +13,13 @@ import {NgClass} from "@angular/common";
     ReactiveFormsModule
   ],
   templateUrl: './ex06.component.html',
- // styleUrl: './ex06.component.css'
+  styleUrl: './ex06.component.css'
 })
 export class Ex06Component {
   celcius: number | null = 0;
   fahrenheit: number | null = 0;
-  rForm = this.fb.group({
-    celciusInput: ["", [Validators.required]]
-  })
-  constructor(private fb: FormBuilder) {}
+
+  constructor() {}
 
   ngOnInit(): void {
     this.celcius = null;
